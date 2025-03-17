@@ -1,0 +1,67 @@
+.About{
+   display: flex;
+   justify-content: center;
+  align-items: center;
+}
+
+.About h1 {
+  border: 3px solid rgb(106, 50, 158); 
+  background-color:rgb(106, 50, 158); 
+  color: white; 
+  display: inline-block; 
+ width: 200px;
+  margin: 0 auto; 
+  text-align: center; 
+  
+}
+
+.links{
+  display: flex;
+  justify-content: center;
+}
+
+.linha{
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  margin: 20px;
+}
+
+
+.links_2 {
+  display: flex;
+  justify-content: center;
+}
+
+.friends{
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+.amigos {
+  display: flex;
+  justify-content: center; 
+  gap: 20px; 
+  align-items: flex-start; 
+  max-width: 600px; 
+  margin: 0 auto; 
+}
+
+.coluna {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+
+.links_3{
+  display: flex;
+  justify-content: center;
+}
+
+.Update{
+  color: rgb(102, 102, 202);
+  padding-right: 100px;
+}
