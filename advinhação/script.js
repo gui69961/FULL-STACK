@@ -7,12 +7,12 @@ function checkGuess() {
 
     if (userGuess == randomNumber) {
         feedback.textContent = "Parabéns! Você acertou!";
-        inputField.style.setProperty("background-color", "green");
+        inputField.style.backgroundColor = "green";
     } else if (userGuess < randomNumber) {
         feedback.textContent = "Tente um número maior.";
-        inputField.style.setProperty("background-color", "red");
+        inputField.style.backgroundColor = "red";
     } else {
         feedback.textContent = "Tente um número menor.";
-        inputField.style.setProperty("background-color", "red");
+        inputField.style.backgroundColor = "red";
     }
 }
