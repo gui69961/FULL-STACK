@@ -2,7 +2,7 @@ const canvas = document.getElementById("meuCanvas");
 const ctx = canvas.getContext("2d");
 
 const img = new Image();
-img.src = 'assets/imagem.png'; // Caminho da imagem
+img.src = 'menino.png'; 
 
 let pos = { x: canvas.width / 2, y: canvas.height / 2 };
 const imgSize = 50;
@@ -16,7 +16,7 @@ canvas.addEventListener("mousemove", (e) => {
   let x = e.clientX - rect.left - imgSize / 2;
   let y = e.clientY - rect.top - imgSize / 2;
 
-  // Impede a imagem de sair do canvas
+ 
   x = Math.max(0, Math.min(x, canvas.width - imgSize));
   y = Math.max(0, Math.min(y, canvas.height - imgSize));
 
@@ -24,7 +24,7 @@ canvas.addEventListener("mousemove", (e) => {
   draw();
 });
 
-// Caso o mouse saia do canvas, mantém a imagem visível
+
 canvas.addEventListener("mouseleave", () => {
   draw();
 });

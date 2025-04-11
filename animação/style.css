@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #f0f8ff; /* cor de fundo */
+    background-color: #f0f8ff;
     font-family: Arial, sans-serif;
   }
   
@@ -9,6 +9,11 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh; /* Centraliza verticalmente */
+    height: 100vh;
+  }
+  
+
+  canvas {
+    border: 2px solid black;
   }
   
