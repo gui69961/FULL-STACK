@@ -1,21 +1,12 @@
 body {
-    margin: 0;
-    padding: 0;
-    height: 100vh;
-    background-color: #ffffff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .container {
-    padding: 10px;
-    background-color: lightgray; /* Só para destacar a borda se tiver bug visual */
-  }
-  
-  canvas {
-    background-color: white;
-    border: 4px solid black;
-    display: block;
-  }
-  
+  background-color: #ffffff; /* Fundo branco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+canvas {
+  border: 1px solid black;
+}
