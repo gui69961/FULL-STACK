@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<title>Title</title>
+<link href="estilo.css" rel="stylesheet">
+</head>
+
+<body>
+
+<h1> Servidor </h1>
+
+
+<form action="/cadastrar" method="get"><h2>Cadastrar usuário</h2>
+    <form method="get" action="/cadastro">
+    <p>Nome: <input type="text" name="nome"></p>
+    <p>Email: <input type="text" name="Email"></p>                 
+    <p>Nascimento: <input type="date" name="nascimento"></p>
+    
+    <p>Senha: <input type="password" name="Senha"></p>
+    <input type="submit" value="Salvar"></form>
+    
+    <form action="/cadastrar" method="post"><h2>Cadastrar usuário(post)</h2>
+        <form method="get" action="/cadastro">
+        <p>Nome: <input type="text" name="nome"></p>
+         <p>Email: <input type="text" name="Email"></p>
+        <p>Nascimento: <input type="date" name="nascimento"></p>
+    
+        <p>Senha: <input type="password" name="Senha"></p>
+        <input type="submit" value="Salvar"></form>
+
+
+        <h2>Exemplo de for no EJS</h2>
+        <form action="/for_ejs" method="get">
+            <p>Numero de DIVs: <input type="number" name="num"></p>
+            <input type="submit" value="Clique para criar DIVs" >
+        </form>
+<script src="server/script.js"></script>
+</body>
