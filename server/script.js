@@ -39,3 +39,9 @@ app.post('/cadastro',function (requisicao, resposta){
     resposta.render('resposta.ejs')
     
     })
+
+
+    app.get('/for_ejs', function(requisicao, resposta){
+        let num = requisicao.query.num;
+        resposta.render('exemplo_for', {tamanho: num})
+    })
