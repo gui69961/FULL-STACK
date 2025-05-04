@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+ 
+}
+

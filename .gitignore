@@ -1,2 +1,4 @@
 servidor/node_modules/*
 servidor/package-lock.json
+projetoget/node_modules/*
+projetoget/package-lock.json
