@@ -3,20 +3,24 @@ const bodyParser = require('body-parser');
 const path = require('path');
 const app = express();
 
-// Middleware
+
+
+
+
+
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
-// Porta 80
+
 const port = 80;
 
-// Rota raiz → redireciona para página de cadastro
+
 app.get('/', (req, res) => {
   res.redirect('/cadastra');
 });
 
-// Página de cadastro
+
 app.get('/cadastra', (req, res) => {
   res.sendFile(path.join(__dirname, 'public', 'Cadastro.html'));
 });
